@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?mu3e92');
+  src:  url('../fonts/icomoon.eot?mu3e92#iefix') format('embedded-opentype'),
+  url('../fonts/icomoon.ttf?mu3e92') format('truetype'),
+  url('../fonts/icomoon.woff?mu3e92') format('woff'),
+  url('../fonts/icomoon.svg?mu3e92#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chat:before {
+  content: "\e910";
+}
+.icon-supprimer1:before {
+  content: "\e908";
+  color: darkgrey;
+}
+.icon-quitter:before {
+  content: "\e90f";
+}
+.icon-ajouter .path1:before {
+  content: "\e901";
+  color: rgb(210, 235, 252);
+}
+.icon-ajouter .path2:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(66, 146, 237);
+}
+.icon-breakheart:before {
+  content: "\e903 ";
+  color: red;
+}
+.icon-heart2:before {
+  content: "\e904 ";
+  color: red;
+}
+.icon-modifier:before {
+  content: "\e905";
+  color: rgb(66, 146, 237);
+}
+.icon-person:before {
+  content: "\e906";
+  color: rgb(66, 146, 237);
+}
+.icon-reponse:before {
+  content: "\e907";
+  color: rgb(66, 146, 237);
+}
+
+.icon-supprimer2:before {
+  content: "\e909";
+  color: red;
+}
+.icon-search:before {
+  content: "\e900";
+  color: rgb(66, 146, 237);
+}
+
+.icon-publier:before {
+  content: "\e90a";
+  color: #0099CC;
+  position: relative;
+  left: 90%;
+
+}
+.icon-bookmark:before {
+  content: "\e90b";
+  color: #FF6666;
+}
+.icon-booknomark:before {
+  content: "\e90c";
+}
+.icon-homeho:before {
+  content: "\e90d";
+  color:#FFFF99;
+}
+.icon-notification:before {
+  content: "\e90e";
+  color: #FF6666;
+}
